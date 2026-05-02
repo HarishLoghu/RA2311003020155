@@ -53,18 +53,27 @@ async function Log(stack, level, pkg, message) {
     throw new Error(`Invalid package: "${pkg}". Allowed: ${VALID_PACKAGES.join(', ')}`);
   }
 
-  const response = await axios.post(
-    LOG_API_URL,
-    { stack, level, package: pkg, message },
-    {
-      headers: {
-        Authorization: `Bearer ${_token}`,
-        'Content-Type': 'application/json',
-      },
-    }
-  );
+  // Enforce the API's 48-character message limit
+  const safeMessage = message.length > 48 ? message.slice(0, 48) : message;
 
-  return response.data; // { logID, message }
+  const payload = { stack, level, package: pkg, message: safeMessage };
+  const config = {
+    headers: {
+      Authorization: `Bearer ${_token}`,
+      'Content-Type': 'application/json',
+    },
+  };
+
+  // Attempt with one automatic retry on transient network failure
+  try {
+    const response = await axios.post(LOG_API_URL, payload, config);
+    return response.data;
+  } catch (firstErr) {
+    if (firstErr.response) throw firstErr; // Server returned error — don't retry
+    // Network / timeout error — retry once
+    const response = await axios.post(LOG_API_URL, payload, config);
+    return response.data;
+  }
 }
 
 module.exports = { Log, configure };
