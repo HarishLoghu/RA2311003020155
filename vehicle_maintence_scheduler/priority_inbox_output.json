@@ -1,0 +1,67 @@
+﻿{
+    "success":  true,
+    "count":  10,
+    "topN":  10,
+    "notifications":  [
+                          {
+                              "ID":  "3658d740-4b12-4f3b-8bc1-402698d5f654",
+                              "Type":  "Placement",
+                              "Message":  "Marvell Technology Inc. hiring",
+                              "Timestamp":  "2026-05-02 04:50:33"
+                          },
+                          {
+                              "ID":  "50fc8b95-d85a-4b36-a2c9-eeadccdcabee",
+                              "Type":  "Placement",
+                              "Message":  "Amgen Inc. hiring",
+                              "Timestamp":  "2026-05-02 00:50:39"
+                          },
+                          {
+                              "ID":  "c7d5c55e-e02f-4530-a89b-ff0b7656002f",
+                              "Type":  "Placement",
+                              "Message":  "Nvidia Corporation hiring",
+                              "Timestamp":  "2026-05-01 21:21:51"
+                          },
+                          {
+                              "ID":  "84abbfd8-aef3-4d4a-a7d1-21899d4ed659",
+                              "Type":  "Placement",
+                              "Message":  "Apple Inc. hiring",
+                              "Timestamp":  "2026-05-01 18:50:45"
+                          },
+                          {
+                              "ID":  "2fd63277-9b3f-4c92-84b9-b9e818c08619",
+                              "Type":  "Placement",
+                              "Message":  "Amazon.com Inc. hiring",
+                              "Timestamp":  "2026-05-01 18:20:51"
+                          },
+                          {
+                              "ID":  "7a0f9f7e-65db-4266-8a64-7c2740a5d60e",
+                              "Type":  "Placement",
+                              "Message":  "Advanced Micro Devices Inc. hiring",
+                              "Timestamp":  "2026-05-01 17:21:09"
+                          },
+                          {
+                              "ID":  "0dd071a8-78cd-44e2-bc0d-3435f5bede57",
+                              "Type":  "Placement",
+                              "Message":  "Eli Lilly and Company hiring",
+                              "Timestamp":  "2026-05-01 15:20:15"
+                          },
+                          {
+                              "ID":  "a99dd053-27ea-4a6c-811c-5f98742b779f",
+                              "Type":  "Result",
+                              "Message":  "external",
+                              "Timestamp":  "2026-05-02 02:51:03"
+                          },
+                          {
+                              "ID":  "978565a0-b397-46a3-b699-1a3220fb0323",
+                              "Type":  "Result",
+                              "Message":  "internal",
+                              "Timestamp":  "2026-05-02 01:52:03"
+                          },
+                          {
+                              "ID":  "d938da5a-1d8f-46d7-a206-33ba6e49b3c6",
+                              "Type":  "Result",
+                              "Message":  "external",
+                              "Timestamp":  "2026-05-01 14:51:33"
+                          }
+                      ]
+}

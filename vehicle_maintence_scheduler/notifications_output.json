@@ -1,0 +1,126 @@
+﻿{
+    "success":  true,
+    "count":  20,
+    "notifications":  [
+                          {
+                              "ID":  "978565a0-b397-46a3-b699-1a3220fb0323",
+                              "Type":  "Result",
+                              "Message":  "internal",
+                              "Timestamp":  "2026-05-02 01:52:03"
+                          },
+                          {
+                              "ID":  "07e83c6e-f3e8-40ac-bc68-8dbf9f041e80",
+                              "Type":  "Result",
+                              "Message":  "external",
+                              "Timestamp":  "2026-05-01 08:21:57"
+                          },
+                          {
+                              "ID":  "c7d5c55e-e02f-4530-a89b-ff0b7656002f",
+                              "Type":  "Placement",
+                              "Message":  "Nvidia Corporation hiring",
+                              "Timestamp":  "2026-05-01 21:21:51"
+                          },
+                          {
+                              "ID":  "ce29cae6-110b-4b43-b6bf-605722872014",
+                              "Type":  "Event",
+                              "Message":  "tech-fest",
+                              "Timestamp":  "2026-05-01 12:51:45"
+                          },
+                          {
+                              "ID":  "f61eb9fd-27d4-4496-9823-213b5fbce2f0",
+                              "Type":  "Event",
+                              "Message":  "induction",
+                              "Timestamp":  "2026-05-01 14:51:39"
+                          },
+                          {
+                              "ID":  "d938da5a-1d8f-46d7-a206-33ba6e49b3c6",
+                              "Type":  "Result",
+                              "Message":  "external",
+                              "Timestamp":  "2026-05-01 14:51:33"
+                          },
+                          {
+                              "ID":  "1eab638a-0eb7-43e3-a4c8-b98a1c314c55",
+                              "Type":  "Event",
+                              "Message":  "traditional-day",
+                              "Timestamp":  "2026-05-01 22:21:27"
+                          },
+                          {
+                              "ID":  "8a017c3e-e5df-4c5c-8268-6cb8b958a68a",
+                              "Type":  "Event",
+                              "Message":  "farewell",
+                              "Timestamp":  "2026-05-02 05:51:21"
+                          },
+                          {
+                              "ID":  "712c4ff1-6d99-431e-98df-8d3c1c30d799",
+                              "Type":  "Event",
+                              "Message":  "farewell",
+                              "Timestamp":  "2026-05-01 19:51:15"
+                          },
+                          {
+                              "ID":  "7a0f9f7e-65db-4266-8a64-7c2740a5d60e",
+                              "Type":  "Placement",
+                              "Message":  "Advanced Micro Devices Inc. hiring",
+                              "Timestamp":  "2026-05-01 17:21:09"
+                          },
+                          {
+                              "ID":  "a99dd053-27ea-4a6c-811c-5f98742b779f",
+                              "Type":  "Result",
+                              "Message":  "external",
+                              "Timestamp":  "2026-05-02 02:51:03"
+                          },
+                          {
+                              "ID":  "0d415df5-fb52-4d44-adaf-fc8d0a66b722",
+                              "Type":  "Result",
+                              "Message":  "project-review",
+                              "Timestamp":  "2026-05-01 14:50:57"
+                          },
+                          {
+                              "ID":  "2fd63277-9b3f-4c92-84b9-b9e818c08619",
+                              "Type":  "Placement",
+                              "Message":  "Amazon.com Inc. hiring",
+                              "Timestamp":  "2026-05-01 18:20:51"
+                          },
+                          {
+                              "ID":  "84abbfd8-aef3-4d4a-a7d1-21899d4ed659",
+                              "Type":  "Placement",
+                              "Message":  "Apple Inc. hiring",
+                              "Timestamp":  "2026-05-01 18:50:45"
+                          },
+                          {
+                              "ID":  "50fc8b95-d85a-4b36-a2c9-eeadccdcabee",
+                              "Type":  "Placement",
+                              "Message":  "Amgen Inc. hiring",
+                              "Timestamp":  "2026-05-02 00:50:39"
+                          },
+                          {
+                              "ID":  "3658d740-4b12-4f3b-8bc1-402698d5f654",
+                              "Type":  "Placement",
+                              "Message":  "Marvell Technology Inc. hiring",
+                              "Timestamp":  "2026-05-02 04:50:33"
+                          },
+                          {
+                              "ID":  "77681177-e198-4a50-aa01-c31a177c1019",
+                              "Type":  "Event",
+                              "Message":  "induction",
+                              "Timestamp":  "2026-05-01 23:20:27"
+                          },
+                          {
+                              "ID":  "ddf57dae-321b-4cd6-a7e1-84cb0a837ee9",
+                              "Type":  "Result",
+                              "Message":  "project-review",
+                              "Timestamp":  "2026-05-01 07:20:21"
+                          },
+                          {
+                              "ID":  "0dd071a8-78cd-44e2-bc0d-3435f5bede57",
+                              "Type":  "Placement",
+                              "Message":  "Eli Lilly and Company hiring",
+                              "Timestamp":  "2026-05-01 15:20:15"
+                          },
+                          {
+                              "ID":  "606cc1d3-79ba-4af2-8331-4cf5924cff40",
+                              "Type":  "Event",
+                              "Message":  "traditional-day",
+                              "Timestamp":  "2026-05-01 13:20:09"
+                          }
+                      ]
+}
