@@ -13,7 +13,11 @@ const router = express.Router();
  */
 router.get('/priority-inbox', async (req, res) => {
   const token = process.env.AUTH_TOKEN;
-  const topN = parseInt(req.query.top, 10) || 10;
+  let topN = parseInt(req.query.top, 10) || 10;
+
+  // Clamp topN between 1 and 100
+  if (topN < 1) topN = 1;
+  if (topN > 100) topN = 100;
 
   await Log('backend', 'info', 'route', `GET /priority-inbox top=${topN}`);
 
@@ -27,14 +31,14 @@ router.get('/priority-inbox', async (req, res) => {
       notifications,
     });
   } catch (err) {
-    await Log('backend', 'error', 'route', `Priority-inbox failed: ${err.message}`.slice(0,48));
+    await Log('backend', 'error', 'route', `Priority-inbox failed: ${err.message}`.slice(0, 48));
     return res.status(500).json({ success: false, error: err.message });
   }
 });
 
 /**
  * GET /api/v1/notifications
- * Returns all notifications (unsorted, raw from upstream API).
+ * Returns all notifications (raw from upstream API).
  */
 router.get('/', async (req, res) => {
   const token = process.env.AUTH_TOKEN;
@@ -51,7 +55,7 @@ router.get('/', async (req, res) => {
     await Log('backend', 'info', 'route', `Notifications ok: ${notifications.length}`);
     return res.status(200).json({ success: true, count: notifications.length, notifications });
   } catch (err) {
-    await Log('backend', 'error', 'route', `Notifications failed`.slice(0,48));
+    await Log('backend', 'error', 'route', 'Notifications failed'.slice(0, 48));
     return res.status(500).json({ success: false, error: err.message });
   }
 });
